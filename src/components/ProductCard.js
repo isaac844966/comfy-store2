@@ -94,10 +94,10 @@ padding:1rem;
 `;
 const CustomArrowStyles = styled.div`
   .slick-prev {
-   /* margin-left:1.3rem */
+   margin-left:1.3rem
   }
   .slick-next{
-    /* margin-right:3rem */
+    margin-right:3rem
   }
   .slick-prev,
   .slick-next {
@@ -105,18 +105,14 @@ const CustomArrowStyles = styled.div`
     background-color: none;
     color: black;
     border: none;
-    margin-top: -2rem;
-
-
+    margin-top: -3rem;
     cursor: pointer;
     z-index: 1;
-    /* &:hover {
-      background-color: var(--black);
-    } */
+    
     &::before {
       color: var(--black);
       font-size: 2.5rem;
-      display:none;
+     
     }
   }
 `;
