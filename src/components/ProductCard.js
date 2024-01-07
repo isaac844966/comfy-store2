@@ -37,15 +37,15 @@ const ProductCard = () => {
       {
         breakpoint: 800,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1,
-          initialSlide: 2,
+          initialSlide: 1,
         },
       },
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 1,
         },
@@ -89,18 +89,19 @@ const Wrapper = styled.div`
   .container {
 padding:1rem;
     margin: 0 auto;
-    transition: all ease-in-out 3s;
+  
   }
 `;
 const CustomArrowStyles = styled.div`
   .slick-prev {
-   margin-left:1.3rem
+   /* margin-left:1.3rem */
   }
   .slick-next{
-    margin-right:3rem
+    /* margin-right:3rem */
   }
   .slick-prev,
   .slick-next {
+    display:none;
     background-color: none;
     color: black;
     border: none;
@@ -115,6 +116,7 @@ const CustomArrowStyles = styled.div`
     &::before {
       color: var(--black);
       font-size: 2.5rem;
+      display:none;
     }
   }
 `;

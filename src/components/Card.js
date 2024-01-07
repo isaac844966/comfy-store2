@@ -29,9 +29,7 @@ const Wrapper = styled.div`
     width: 100%;
     margin-bottom: 1rem;
   }
-  p {
-    margin-bottom: 0;
-  }
+ 
   .category {
     color: var(--Neutral400);
     font-size: 10px;
