@@ -17,7 +17,7 @@ const CustomNextArrow = (props) => (
 const ProductCard = () => {
   var settings = {
     dots: false,
-    infinite: true,
+    infinite: false,
     speed: 1000,
     autoplay: true,
     slidesToShow: 8,

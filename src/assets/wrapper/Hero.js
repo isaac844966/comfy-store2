@@ -1,5 +1,14 @@
-import styled from "styled-components";
 import bg from "../bg1.png";
+import styled, { keyframes } from "styled-components";
+
+const moveRight = keyframes`
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(1px);
+  }
+`;
 
 const Wrapper = styled.section`
   background: url(${bg});
@@ -32,7 +41,11 @@ const Wrapper = styled.section`
     border: none;
     color: var(--white);
     cursor: pointer;
+    .arrow{
+      animation: ${moveRight} 1s linear infinite;
+    }
   }
+  
   @media screen and (min-width: 992px) {
     margin: -5rem 4rem 0 4rem;
     padding: 3rem 72px;

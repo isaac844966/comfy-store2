@@ -55,6 +55,7 @@ Global Styles
   box-sizing: border-box;
 }
 body {
+  scroll-behavior: smooth;
   font-family: var(--font-family);
   background: var(--Neutral50);
   color: var(--text-color1);

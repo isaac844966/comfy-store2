@@ -30,7 +30,7 @@ const Wrapper = styled.div`
 h4{
     font-weight:700;
     font-size: 30px;
-    line-height: 40.7px;
+    line-height:35.7px;
     color:var(--black);
     margin-top:2rem
 
@@ -62,7 +62,7 @@ h4{
     h4{
 
     font-size: 36px;
-    line-height: 42.7px;
+    line-height: 40.7px;
 
 }
 }

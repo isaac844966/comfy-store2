@@ -14,7 +14,7 @@ const Hero = () => {
         <p>Shop qaulity fresh food on our website</p>
         <Link to="/products">
            <button type="button">
-          Shop Now <FaArrowRight />
+          Shop Now <FaArrowRight className="arrow"/>
         </button>
         </Link>
       </section>
