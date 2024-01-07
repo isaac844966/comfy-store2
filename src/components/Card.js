@@ -38,6 +38,7 @@ const Wrapper = styled.div`
     font-weight: 600;
     line-height: 14.06px;
     margin-bottom: 0.5rem;
+    margin-left:10px
   }
   .name {
     color: black;
@@ -45,6 +46,7 @@ const Wrapper = styled.div`
     font-size: 16px;
     line-height: 22.5px;
     margin-bottom: 0.5rem;
+    margin-left:10px
   }
   .price {
     color: black;
@@ -52,6 +54,7 @@ const Wrapper = styled.div`
     font-size: 16px;
     line-height: 22.5px;
     margin-bottom: 1.5rem;
+    margin-left:10px
   }
   .oldPrice {
     color: var(--Neutral400);
