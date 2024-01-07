@@ -4,9 +4,11 @@ const Wrapper = styled.section`
 position: fixed;
 top:0;
 width:100%;
+z-index: 3;
   .nav-menu {
     display: flex;
     width:100%;
+   
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;

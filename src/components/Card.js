@@ -30,9 +30,7 @@ export default Card;
 const Wrapper = styled.div`
   img {
     width: 100%;
-    height:180px;
     margin-bottom: 1rem;
-    object-fit: cover;
   }
  .content{
   margin-left:10px;

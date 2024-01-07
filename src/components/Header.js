@@ -23,7 +23,7 @@ display:none;
     .header {
       /* margin-top:-8rem; */
       top:0;
-      z-index: 1;
+      z-index: 3;
       background: var(--pink);
       position:fixed;
       width: 100%;

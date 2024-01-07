@@ -11,7 +11,7 @@ const Wrapper = styled.div`
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding:2rem 0 2rem 2rem;
+    padding-left:2rem ;
     border:10px
 }
  .one{
@@ -31,7 +31,9 @@ h4{
     font-weight:700;
     font-size: 30px;
     line-height: 40.7px;
-    color:var(--black)
+    color:var(--black);
+    margin-top:2rem
+
 }
 .link{
     display:flex;
@@ -40,6 +42,7 @@ h4{
     align-items: center;
     color:var(--black);
     font-weight:700;
+    margin-bottom:2rem
 }
 @media screen  and (min-width:992px){
     .category-container{

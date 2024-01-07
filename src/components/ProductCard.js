@@ -17,8 +17,9 @@ const CustomNextArrow = (props) => (
 const ProductCard = () => {
   var settings = {
     dots: false,
-    infinite: false,
-    speed: 500,
+    infinite: true,
+    speed: 1000,
+    autoplay: true,
     slidesToShow: 8,
     slidesToScroll: 8,
     initialSlide: 0,
@@ -37,7 +38,7 @@ const ProductCard = () => {
       {
         breakpoint: 800,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 1,
         },
@@ -45,7 +46,7 @@ const ProductCard = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
         },
